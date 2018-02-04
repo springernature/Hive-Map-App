@@ -1,0 +1,13 @@
+{
+    "integrationUser": {
+        "systemAdmin": false
+    },
+    "osapps": [
+        {
+            "id": "14ac533f-5aa4-4072-b5b9-398b55dd9fc8",
+            "name": "Interactive Map",
+            "appPath": "14ac533f5aa44072b5b9398b55dd9fc8",
+            "url": "/public/apps/simpleapp/app.xml"
+        }
+    ]
+}

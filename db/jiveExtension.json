@@ -1,0 +1,12 @@
+{
+  "jiveExtension": {
+    "id": "97446fa1-4714-4802-8b14-fd93cc4704c8",
+    "uuid": "97446fa1-4714-4802-8b14-fd93cc4704c8",
+    "name": "Interactive Map",
+    "description": "Interactive map of the world showing regional GRC contacts",
+    "icon_16": "extension-16.png",
+    "icon_48": "extension-48.png",
+    "icon_128": "extension-128.png",
+    "releasedOn": "2018-02-01T11:19:22.207Z"
+  }
+}

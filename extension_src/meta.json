@@ -1,0 +1,14 @@
+{
+    "package_version": "1.0",
+    "id": "97446fa1-4714-4802-8b14-fd93cc4704c8",
+    "type": "client-app",
+    "name": "Interactive Map",
+    "description": "Interactive map of the world showing regional GRC contacts",
+    "minimum_version": "0080300000",
+    "icon_16": "extension-16.png",
+    "icon_48": "extension-48.png",
+    "icon_128": "extension-128.png",
+    "redirect_url": "%serviceURL%",
+    "released_on": "2018-02-01T11:19:22.207Z",
+    "service_url": "http://localhost"
+}
