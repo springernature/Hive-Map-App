@@ -1,30 +1,13 @@
 
-var modals = $('.modal');
-var areas = $('.area');
-var close = $('.close');
-
-$(modals).each(function(index,modal){
-    $(areas[index]).on('click',function(){
-        modal.style.display = 'block';
-    });
-    $(close[index]).on('click',function(){
-        modal.style.display = 'none';
-    });
-});
-
-// // When the user clicks anywhere outside of the modal_canada, close it
-window.onclick = function(event) {
-    $(modals).each(function(index,modal){
-        if (event.target == modal) {
-            modal.style.display = "none";
-        }
-    });    
-}
-
 $(document).ready(function() {
+
+    var modals = $('.modal');
+    var close = $('.close');
+    var areas = $('.area');
+   
     $('map').imageMapResize();
     $('.panel').hide();
-    var areas = $('.area');
+    
     $(areas).each(function(index, area){
         $(area).on('mouseleave',function(){
             $('.panel').hide();
@@ -39,5 +22,22 @@ $(document).ready(function() {
             $('.panel').show();
         });
     });
-});
 
+    $(modals).each(function(index,modal){
+        $(areas[index]).on('click',function(){
+            modal.style.display = 'block';
+        });
+        $(close[index]).on('click',function(){
+            modal.style.display = 'none';
+        });
+    });
+
+     // // When the user clicks anywhere outside of the modal_canada, close it
+     window.onclick = function(event) {
+        $(modals).each(function(index,modal){
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        });    
+    }
+});
