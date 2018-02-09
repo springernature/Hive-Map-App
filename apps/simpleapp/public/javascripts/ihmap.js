@@ -32,7 +32,7 @@ $(document).ready(function() {
         });
     });
 
-     // // When the user clicks anywhere outside of the modal_canada, close it
+     // When the user clicks anywhere outside of the modal_canada, close it
      window.onclick = function(event) {
         $(modals).each(function(index,modal){
             if (event.target == modal) {
