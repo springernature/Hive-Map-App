@@ -69,7 +69,7 @@ input[type = 'text'] {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
-    padding-top: 50px; /*Location of the box*/
+    padding-top: 150px; /*Location of the box*/
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -84,7 +84,7 @@ input[type = 'text'] {
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 35%;
+    width: 30%;
 }
 /* The Close Button */
 .close {
@@ -99,9 +99,6 @@ input[type = 'text'] {
     text-decoration: none;
     cursor: pointer;
 }
-.modal-open .modal, .area:focus{
-    outline: none!important;
-}
 img{
     width: 800px;
     height: 600px;
@@ -112,36 +109,16 @@ img{
       font-size:12px;
       display:inline;
       list-style-position: inside;
-      list-style-type: square;
+      list-style-type: square;   
   }
 #panel{
+    /* position: absolute;  */
+    /* left: inherit; */
+    /* top: 0px; */
     z-index: 10;
     width: 300px;
     text-align: center;
 }
-.panel-body{
-    font-family:Myriad,Verdana,Arial;
-    font-size:11px;
-}
 h4{
     text-align: center;
-}
-
-.row{
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 0px solid rgba(0, 0, 0, 0.8);
-  padding: 0px 0px 10px 0px;
-  font-family: Myriad,Verdana,Arial;
-  font-size: 10px;
-  text-align: left;
-}
-
-div.col-xs-10{
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.image > img{
-    border-radius: 50%;
 }
