@@ -11,7 +11,7 @@ $(document).ready(function() {
         3:["alfredo.echeverria@macmillaneducation.com"],
         4:["acacio.queiroz@macmillaneducation.com"],
         5:["piotr.pich@macmillaneducation.com"],
-        6:["lindiwe.vundla@macmillaneducation.co.za"],
+        6:["kefiloe.kgomo@macmillaneducation.co.za"],
         7:["fernando.rastrollo@macmillaneducation.com"],
         8:["sanjiv.goswami@springer.com","emma.bourne@macmillaneducation.com","preeti.wadhawan@macmillan.co.in","rajesh.pasari@macmillan.co.in","dayalu.subburayalu@springer.com","matthias.wissel@springer.com","bas.amesz@springernature.com","maurice.kwong@springer.com"],
         9:["thomas.thiekoetter@springer.com"],
@@ -138,6 +138,8 @@ $(document).ready(function() {
         $(divElement).append($("<br>"));
         $(divElement).append(mailTo);
         $(divElement).append($("<br>"));
+        $(divElement).css({"white-space": "nowrap",
+        "overflow": "hidden","text-overflow":"ellipsis"});
         $(buildItemDiv(mother_div,"col-xs-10")).append(divElement);
     }
     function buildItemDiv(element,class_data){

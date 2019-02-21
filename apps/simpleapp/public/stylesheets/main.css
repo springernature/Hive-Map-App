@@ -136,12 +136,6 @@ h4{
   text-align: left;
 }
 
-div.col-xs-10{
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
 .image > img{
     border-radius: 50%;
 }
