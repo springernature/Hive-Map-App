@@ -75,7 +75,7 @@
                    view="place-space-tab"/>
 <!--
            <action id="example.app.places.group.tab"
-                   path="jive/tabs/places/group"
+                   path="jive/tabs/places/group?filter=equals(context.ID,6042)"
                    label="Example (Group)"
                    view="place-group-tab"/>
 

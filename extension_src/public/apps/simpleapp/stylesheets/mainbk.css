@@ -84,7 +84,7 @@ input[type = 'text'] {
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 45%;
+    width: 35%;
 }
 /* The Close Button */
 .close {
@@ -108,12 +108,12 @@ img{
 }
 
 .list{
-    font-family:Myriad,Verdana,Arial;
-    font-size:12px;
-    display:inline;
-    list-style-position: inside;
-    list-style-type: square;
-}
+      font-family:Myriad,Verdana,Arial;
+      font-size:12px;
+      display:inline;
+      list-style-position: inside;
+      list-style-type: square;
+  }
 #panel{
     z-index: 10;
     width: 300px;
@@ -123,61 +123,19 @@ img{
     font-family:Myriad,Verdana,Arial;
     font-size:11px;
 }
-h4,h2 {
+h4{
     text-align: center;
-    font-family:Myriad,Verdana,Arial;
-}
-h5{
 }
 
 .row{
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 0px solid rgba(0, 0, 0, 0.8);
-    padding: 0px 0px 10px 0px;
-    font-family: Myriad,Verdana,Arial;
-    font-size: 10px;
-    text-align: left;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 0px solid rgba(0, 0, 0, 0.8);
+  padding: 0px 0px 10px 0px;
+  font-family: Myriad,Verdana,Arial;
+  font-size: 10px;
+  text-align: left;
 }
+
 .image > img{
     border-radius: 50%;
-}
-.content,.usa,canada {
-    display: none;
-}
-.loadMore,.loadLess {
-    width: auto;
-    color: #fff;
-    display: block;
-    text-align: center;
-    font-size: 12px;
-    margin: 20px auto;
-    padding: 3px;
-    border-radius: 5px;
-    border: 1px solid transparent;
-    background-color: lightgrey;
-    transition: .3s;
-}
-.loadMore:hover, .loadLess:hover {
-    color: purple;
-    background-color: #fff;
-    border: 1px solid purple;
-    text-decoration: none;
-}
-.noContent {
-    color: #000 !important;
-    background-color: transparent !important;
-    pointer-events: none;
-}
-hr {
-    color: #800080;
-}
-hr.purple {
-    border: 1px solid purple;
-}
-hr.new5 {
-    border: 1px solid purple;
-    border-radius: 2px;
-}
-.ui-accordion-header.ui-state-active {
-    background-color: purple;
 }

@@ -1,22 +1,117 @@
-[2019-04-26 10:34:25.299] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/canvas.html to extension.zip  :  public/apps/simpleapp/canvas.html
-[2019-04-26 10:34:25.300] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/app.xml to extension.zip  :  public/apps/simpleapp/app.xml
-[2019-04-26 10:34:25.300] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/canvas_backup.html to extension.zip  :  public/apps/simpleapp/canvas_backup.html
-[2019-04-26 10:34:25.303] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/images/icon128.png to extension.zip  :  public/apps/simpleapp/images/icon128.png
-[2019-04-26 10:34:25.303] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/images/icon16.png to extension.zip  :  public/apps/simpleapp/images/icon16.png
-[2019-04-26 10:34:25.304] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/images/icon48.png to extension.zip  :  public/apps/simpleapp/images/icon48.png
-[2019-04-26 10:34:25.304] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/images/worldmap.png to extension.zip  :  public/apps/simpleapp/images/worldmap.png
-[2019-04-26 10:34:25.304] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/locales/all_ALL.xml to extension.zip  :  public/apps/simpleapp/locales/all_ALL.xml
-[2019-04-26 10:34:25.304] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/locales/en_ALL.xml to extension.zip  :  public/apps/simpleapp/locales/en_ALL.xml
-[2019-04-26 10:34:25.304] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/javascripts/app.js to extension.zip  :  public/apps/simpleapp/javascripts/app.js
-[2019-04-26 10:34:25.305] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/javascripts/bootstrap-30.min.js to extension.zip  :  public/apps/simpleapp/javascripts/bootstrap-30.min.js
-[2019-04-26 10:34:25.305] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/javascripts/coreapi-context-resolver-v3.js to extension.zip  :  public/apps/simpleapp/javascripts/coreapi-context-resolver-v3.js
-[2019-04-26 10:34:25.305] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/javascripts/ihmap.js to extension.zip  :  public/apps/simpleapp/javascripts/ihmap.js
-[2019-04-26 10:34:25.305] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/javascripts/ihmap_backup.js to extension.zip  :  public/apps/simpleapp/javascripts/ihmap_backup.js
-[2019-04-26 10:34:25.305] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/javascripts/imageMapResizer.min.js to extension.zip  :  public/apps/simpleapp/javascripts/imageMapResizer.min.js
-[2019-04-26 10:34:25.305] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/javascripts/jquery-1.8.3.js to extension.zip  :  public/apps/simpleapp/javascripts/jquery-1.8.3.js
-[2019-04-26 10:34:25.305] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/javascripts/main.js to extension.zip  :  public/apps/simpleapp/javascripts/main.js
-[2019-04-26 10:34:25.306] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/stylesheets/bootstrap-30.min.css to extension.zip  :  public/apps/simpleapp/stylesheets/bootstrap-30.min.css
-[2019-04-26 10:34:25.306] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/stylesheets/ihmap.css to extension.zip  :  public/apps/simpleapp/stylesheets/ihmap.css
-[2019-04-26 10:34:25.306] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/stylesheets/main.css to extension.zip  :  public/apps/simpleapp/stylesheets/main.css
-[2019-04-26 10:34:25.306] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/stylesheets/main_backup.css to extension.zip  :  public/apps/simpleapp/stylesheets/main_backup.css
-[2019-04-26 10:34:25.423] [INFO] jive-sdk - Updated 1 data file(s): [jiveExtension]
+[2020-06-10 08:20:43.802] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/images/icon128.png to extension.zip  :  public/apps/simpleapp/images/icon128.png
+[2020-06-10 08:20:43.802] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/images/icon16.png to extension.zip  :  public/apps/simpleapp/images/icon16.png
+[2020-06-10 08:20:43.802] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/images/icon48.png to extension.zip  :  public/apps/simpleapp/images/icon48.png
+[2020-06-10 08:20:43.803] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/images/worldmap.png to extension.zip  :  public/apps/simpleapp/images/worldmap.png
+[2020-06-10 08:20:43.803] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/javascripts/app.js to extension.zip  :  public/apps/simpleapp/javascripts/app.js
+[2020-06-10 08:20:43.803] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/javascripts/bootstrap-30.min.js to extension.zip  :  public/apps/simpleapp/javascripts/bootstrap-30.min.js
+[2020-06-10 08:20:43.803] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/javascripts/coreapi-context-resolver-v3.js to extension.zip  :  public/apps/simpleapp/javascripts/coreapi-context-resolver-v3.js
+[2020-06-10 08:20:43.803] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/javascripts/ihmap.js to extension.zip  :  public/apps/simpleapp/javascripts/ihmap.js
+[2020-06-10 08:20:43.804] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/javascripts/ihmap_backup.js to extension.zip  :  public/apps/simpleapp/javascripts/ihmap_backup.js
+[2020-06-10 08:20:43.804] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/javascripts/ihmapbk.js to extension.zip  :  public/apps/simpleapp/javascripts/ihmapbk.js
+[2020-06-10 08:20:43.804] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/javascripts/imageMapResizer.min.js to extension.zip  :  public/apps/simpleapp/javascripts/imageMapResizer.min.js
+[2020-06-10 08:20:43.804] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/javascripts/jquery-1.8.3.js to extension.zip  :  public/apps/simpleapp/javascripts/jquery-1.8.3.js
+[2020-06-10 08:20:43.804] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/javascripts/main.js to extension.zip  :  public/apps/simpleapp/javascripts/main.js
+[2020-06-10 08:20:43.804] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/locales/all_ALL.xml to extension.zip  :  public/apps/simpleapp/locales/all_ALL.xml
+[2020-06-10 08:20:43.805] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/locales/en_ALL.xml to extension.zip  :  public/apps/simpleapp/locales/en_ALL.xml
+[2020-06-10 08:20:43.805] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/stylesheets/bootstrap-30.min.css to extension.zip  :  public/apps/simpleapp/stylesheets/bootstrap-30.min.css
+[2020-06-10 08:20:43.805] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/stylesheets/ihmap.css to extension.zip  :  public/apps/simpleapp/stylesheets/ihmap.css
+[2020-06-10 08:20:43.805] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/stylesheets/main.css to extension.zip  :  public/apps/simpleapp/stylesheets/main.css
+[2020-06-10 08:20:43.805] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/stylesheets/main_backup.css to extension.zip  :  public/apps/simpleapp/stylesheets/main_backup.css
+[2020-06-10 08:20:43.805] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/stylesheets/mainbk.css to extension.zip  :  public/apps/simpleapp/stylesheets/mainbk.css
+[2020-06-10 08:20:43.926] [INFO] jive-sdk - Updated 1 data file(s): [jiveExtension]
+[2020-06-10 08:44:31.641] [WARN] jive-sdk - ******************************
+[2020-06-10 08:44:31.642] [WARN] jive-sdk - File persistence is configured.
+[2020-06-10 08:44:31.642] [WARN] jive-sdk - Please note that this should
+[2020-06-10 08:44:31.642] [WARN] jive-sdk - not be used for production!
+[2020-06-10 08:44:31.642] [WARN] jive-sdk - ******************************
+[2020-06-10 08:44:31.642] [DEBUG] jive-sdk - File persistence dir at 'db'
+[2020-06-10 08:44:31.646] [DEBUG] jive-sdk - Setting up osapp at /Users/aqn3130/Documents/Folders/Hive-Map-App/apps/simpleapp
+[2020-06-10 08:44:31.648] [DEBUG] jive-sdk - Creating directory extension_src/public/apps
+[2020-06-10 08:44:31.649] [DEBUG] jive-sdk - Creating directory extension_src/public/tiles
+[2020-06-10 08:44:31.649] [DEBUG] jive-sdk - Copying public to extension_src/public
+[2020-06-10 08:44:31.662] [DEBUG] jive-sdk - Creating directory extension_src/public/services
+[2020-06-10 08:44:31.662] [DEBUG] jive-sdk - Copying public to extension_src/public
+[2020-06-10 08:44:31.679] [DEBUG] jive-sdk - Copying /Users/aqn3130/Documents/Folders/Hive-Map-App/apps/simpleapp/public to extension_src/public/apps/simpleapp
+[2020-06-10 08:44:31.711] [DEBUG] jive-sdk - definitions:
+[]
+[2020-06-10 08:44:31.711] [DEBUG] jive-sdk - templates:
+[]
+[2020-06-10 08:44:31.712] [DEBUG] jive-sdk - apps:
+[
+    {
+        "id": "14ac533f-5aa4-4072-b5b9-398b55dd9fc8",
+        "name": "Interactive Map",
+        "appPath": "14ac533f5aa44072b5b9398b55dd9fc8",
+        "url": "/public/apps/simpleapp/app.xml"
+    }
+]
+[2020-06-10 08:44:31.712] [DEBUG] jive-sdk - storageDefinitions:
+[]
+[2020-06-10 08:44:31.712] [DEBUG] jive-sdk - cartridges:
+[]
+[2020-06-10 08:44:31.714] [DEBUG] jive-sdk - Extension meta: 
+{
+    "package_version": "1.0",
+    "id": "97446fa1-4714-4802-8b14-fd93cc4704c8",
+    "type": "client-app",
+    "name": "Interactive Map",
+    "description": "Interactive map of the world showing regional GRC contacts",
+    "minimum_version": "0080300000",
+    "icon_16": "extension-16.png",
+    "icon_48": "extension-48.png",
+    "icon_128": "extension-128.png",
+    "redirect_url": "%serviceURL%",
+    "released_on": "2018-02-01T11:19:22.207Z",
+    "service_url": "http://localhost"
+}
+[2020-06-10 08:44:31.807] [DEBUG] jive-sdk - Zipping extension_src/definition.json to extension.zip  :  definition.json
+[2020-06-10 08:44:31.808] [DEBUG] jive-sdk - Zipping extension_src/meta.json to extension.zip  :  meta.json
+[2020-06-10 08:44:31.814] [DEBUG] jive-sdk - Zipping extension_src/data/eula.html to extension.zip  :  data/eula.html
+[2020-06-10 08:44:31.814] [DEBUG] jive-sdk - Zipping extension_src/data/extension-128.png to extension.zip  :  data/extension-128.png
+[2020-06-10 08:44:31.815] [DEBUG] jive-sdk - Zipping extension_src/data/extension-16.png to extension.zip  :  data/extension-16.png
+[2020-06-10 08:44:31.815] [DEBUG] jive-sdk - Zipping extension_src/data/extension-48.png to extension.zip  :  data/extension-48.png
+[2020-06-10 08:44:31.815] [DEBUG] jive-sdk - Zipping extension_src/data/install_instructions.html to extension.zip  :  data/install_instructions.html
+[2020-06-10 08:44:31.815] [DEBUG] jive-sdk - Zipping extension_src/data/overview.html to extension.zip  :  data/overview.html
+[2020-06-10 08:44:31.815] [DEBUG] jive-sdk - Zipping extension_src/data/privacy_policy.html to extension.zip  :  data/privacy_policy.html
+[2020-06-10 08:44:31.816] [DEBUG] jive-sdk - Zipping extension_src/data/screenshot_1.png to extension.zip  :  data/screenshot_1.png
+[2020-06-10 08:44:31.816] [DEBUG] jive-sdk - Zipping extension_src/data/screenshot_2.png to extension.zip  :  data/screenshot_2.png
+[2020-06-10 08:44:31.816] [DEBUG] jive-sdk - Zipping extension_src/i18n/en.properties to extension.zip  :  i18n/en.properties
+[2020-06-10 08:44:31.817] [DEBUG] jive-sdk - Zipping extension_src/i18n/root.properties to extension.zip  :  i18n/root.properties
+[2020-06-10 08:44:31.817] [DEBUG] jive-sdk - Zipping extension_src/public/favicon.ico to extension.zip  :  public/favicon.ico
+[2020-06-10 08:44:31.822] [DEBUG] jive-sdk - Zipping extension_src/public/javascripts/bootstrap-30.js to extension.zip  :  public/javascripts/bootstrap-30.js
+[2020-06-10 08:44:31.822] [DEBUG] jive-sdk - Zipping extension_src/public/javascripts/bootstrap-30.min.js to extension.zip  :  public/javascripts/bootstrap-30.min.js
+[2020-06-10 08:44:31.822] [DEBUG] jive-sdk - Zipping extension_src/public/javascripts/bootstrap.min.js to extension.zip  :  public/javascripts/bootstrap.min.js
+[2020-06-10 08:44:31.823] [DEBUG] jive-sdk - Zipping extension_src/public/javascripts/jQuery-1.10.2.js to extension.zip  :  public/javascripts/jQuery-1.10.2.js
+[2020-06-10 08:44:31.823] [DEBUG] jive-sdk - Zipping extension_src/public/javascripts/jquery-1.8.3.js to extension.zip  :  public/javascripts/jquery-1.8.3.js
+[2020-06-10 08:44:31.823] [DEBUG] jive-sdk - Zipping extension_src/public/javascripts/jquery.base64.min.js to extension.zip  :  public/javascripts/jquery.base64.min.js
+[2020-06-10 08:44:31.823] [DEBUG] jive-sdk - Zipping extension_src/public/stylesheets/bootstrap-30.css to extension.zip  :  public/stylesheets/bootstrap-30.css
+[2020-06-10 08:44:31.823] [DEBUG] jive-sdk - Zipping extension_src/public/stylesheets/bootstrap-30.min.css to extension.zip  :  public/stylesheets/bootstrap-30.min.css
+[2020-06-10 08:44:31.823] [DEBUG] jive-sdk - Zipping extension_src/public/stylesheets/bootstrap.css to extension.zip  :  public/stylesheets/bootstrap.css
+[2020-06-10 08:44:31.824] [DEBUG] jive-sdk - Zipping extension_src/public/stylesheets/bootstrap.min.css to extension.zip  :  public/stylesheets/bootstrap.min.css
+[2020-06-10 08:44:31.824] [DEBUG] jive-sdk - Zipping extension_src/public/stylesheets/style.css to extension.zip  :  public/stylesheets/style.css
+[2020-06-10 08:44:31.828] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/.DS_Store to extension.zip  :  public/apps/simpleapp/.DS_Store
+[2020-06-10 08:44:31.828] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/app.xml to extension.zip  :  public/apps/simpleapp/app.xml
+[2020-06-10 08:44:31.828] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/canvas.html to extension.zip  :  public/apps/simpleapp/canvas.html
+[2020-06-10 08:44:31.829] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/canvas_backup.html to extension.zip  :  public/apps/simpleapp/canvas_backup.html
+[2020-06-10 08:44:31.829] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/canvasbk.html to extension.zip  :  public/apps/simpleapp/canvasbk.html
+[2020-06-10 08:44:31.834] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/javascripts/app.js to extension.zip  :  public/apps/simpleapp/javascripts/app.js
+[2020-06-10 08:44:31.834] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/javascripts/bootstrap-30.min.js to extension.zip  :  public/apps/simpleapp/javascripts/bootstrap-30.min.js
+[2020-06-10 08:44:31.835] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/javascripts/coreapi-context-resolver-v3.js to extension.zip  :  public/apps/simpleapp/javascripts/coreapi-context-resolver-v3.js
+[2020-06-10 08:44:31.835] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/javascripts/ihmap.js to extension.zip  :  public/apps/simpleapp/javascripts/ihmap.js
+[2020-06-10 08:44:31.835] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/javascripts/ihmap_backup.js to extension.zip  :  public/apps/simpleapp/javascripts/ihmap_backup.js
+[2020-06-10 08:44:31.835] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/javascripts/ihmapbk.js to extension.zip  :  public/apps/simpleapp/javascripts/ihmapbk.js
+[2020-06-10 08:44:31.835] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/javascripts/imageMapResizer.min.js to extension.zip  :  public/apps/simpleapp/javascripts/imageMapResizer.min.js
+[2020-06-10 08:44:31.835] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/javascripts/jquery-1.8.3.js to extension.zip  :  public/apps/simpleapp/javascripts/jquery-1.8.3.js
+[2020-06-10 08:44:31.836] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/javascripts/main.js to extension.zip  :  public/apps/simpleapp/javascripts/main.js
+[2020-06-10 08:44:31.836] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/images/icon128.png to extension.zip  :  public/apps/simpleapp/images/icon128.png
+[2020-06-10 08:44:31.836] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/images/icon16.png to extension.zip  :  public/apps/simpleapp/images/icon16.png
+[2020-06-10 08:44:31.836] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/images/icon48.png to extension.zip  :  public/apps/simpleapp/images/icon48.png
+[2020-06-10 08:44:31.836] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/images/worldmap.png to extension.zip  :  public/apps/simpleapp/images/worldmap.png
+[2020-06-10 08:44:31.836] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/locales/all_ALL.xml to extension.zip  :  public/apps/simpleapp/locales/all_ALL.xml
+[2020-06-10 08:44:31.837] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/locales/en_ALL.xml to extension.zip  :  public/apps/simpleapp/locales/en_ALL.xml
+[2020-06-10 08:44:31.837] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/stylesheets/bootstrap-30.min.css to extension.zip  :  public/apps/simpleapp/stylesheets/bootstrap-30.min.css
+[2020-06-10 08:44:31.837] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/stylesheets/ihmap.css to extension.zip  :  public/apps/simpleapp/stylesheets/ihmap.css
+[2020-06-10 08:44:31.837] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/stylesheets/main.css to extension.zip  :  public/apps/simpleapp/stylesheets/main.css
+[2020-06-10 08:44:31.837] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/stylesheets/main_backup.css to extension.zip  :  public/apps/simpleapp/stylesheets/main_backup.css
+[2020-06-10 08:44:31.837] [DEBUG] jive-sdk - Zipping extension_src/public/apps/simpleapp/stylesheets/mainbk.css to extension.zip  :  public/apps/simpleapp/stylesheets/mainbk.css
+[2020-06-10 08:44:31.955] [INFO] jive-sdk - Updated 1 data file(s): [jiveExtension]

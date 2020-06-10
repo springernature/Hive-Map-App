@@ -3,298 +3,341 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="stylesheets/main.css" type="text/css" media="screen" />
+    <!--  accordion css  -->
+<!--    <link rel="stylesheet" type="text/css" href="stylesheets/accordion.css">-->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <!-- NOTE: main.js SHOULD RUN LAST -->
     <script type="text/javascript" charset="utf-8" src="javascripts/main.js"></script>
 </head>
 
 <body>
-  <div class="container" align="center">
-        <img class="img-responsive" src="images/worldmap.png" alt="" usemap="#Map"/>
-    </div>
-    <map name="Map" id="Map">
-        <area class="area" id="ca" alt="" data-toggle="popover" title="Canada" href="#" shape="poly" coords="129,334,212,335,230,339,242,346,245,364,285,344,327,344,320,318,296,281,304,236,183,106,37,199,7,221,3,245,6,279,13,308" />
-        <area class="area" id="usa" alt="" data-toggle="popover" title="USA" href="#" shape="poly" coords="149,396,166,401,179,399,186,408,192,406,199,416,205,419,206,412,216,407,241,403,252,420,312,346,286,346,208,337,128,336,126,370" />
-        <area class="area" id="ncone1" alt="" data-toggle="popover" title="Northern Cone" href="#" shape="poly" coords="250,472,207,448,185,439,171,429,156,414,150,400,166,404,179,401,205,421,233,433" />
-        <area class="area" id="ncone2" alt="" data-toggle="popover" title="Northern Cone" href="#" shape="poly" coords="277,458,291,467,269,464,263,471,252,492,249,508,267,533,285,536" />
-        <area class="area" id="scone" alt="" data-toggle="popover" title="Southern Cone" href="#" shape="poly" coords="267,536,281,548,273,611,266,653,271,672,283,688,293,684,292,651,361,563,383,518,336,487,308,467,279,470" />
-        <area class="area" id="ceurope" alt="" data-toggle="popover" title="Central Europe" href="#" shape="poly" coords="520,310,524,326,535,333,546,334,562,350,570,345,579,352,588,343,596,356,618,365,614,354,626,344,631,351,626,355,632,364,642,365,640,351,648,350,658,358,667,357,671,367,682,361,709,362,709,354,716,351,716,341,723,342,730,334,749,327,758,331,759,325,763,321,771,323,774,328,781,329,790,332,800,334,807,329,813,330,817,333,824,322,824,317,835,315,845,330,855,339,864,337,860,350,855,358,860,360,881,336,887,318,866,310,886,287,901,285,907,281,913,287,921,286,919,281,928,269,935,270,936,276,943,272,947,265,948,274,928,294,926,301,928,323,945,299,940,291,950,280,956,281,960,276,964,279,985,265,990,266,988,257,985,253,990,253,995,247,1003,247,1013,254,1022,243,1013,237,981,212,946,215,936,214,936,207,928,203,907,197,892,188,847,198,834,178,796,178,788,179,807,159,796,144,776,134,682,186" />
-        <area class="area" id="safrica" alt="" data-toggle="popover" title="South Africa" href="#" shape="poly" coords="536,599,562,599,561,592,569,584,575,574,583,566,580,554,575,546,568,539,548,526,514,531,512,548" />
-        <area class="area" id="iberiaTurkey" alt="" data-toggle="popover" title="Iberia and Turkey" href="#" shape="poly" coords="576,385,579,381,585,383,607,381,607,372,620,374,622,366,599,362,578,364,566,368,559,363,564,350,536,335,520,348,546,382" />
-        <area class="area" id="india" alt="" data-toggle="popover" title="India" href="#" shape="poly" coords="702,472,708,467,708,451,734,433,732,419,696,397,689,410,680,413,682,424,678,427" />
-        <area class="area" id="exSNeurope" alt="" data-toggle="popover" title="Ex Springer European Territories" href="#" shape="poly" coords="476,356,488,363,498,357,527,345,534,334,524,326,521,312,506,306,469,335" />
-        <area class="area" id="iberia" alt="" data-toggle="popover" title="Iberia" href="#" shape="poly" coords="465,386,477,381,488,365,476,358,456,355,455,374,458,382" />
-        <area class="area" id="japan" alt="" data-toggle="popover" title="Japan" href="#" shape="poly" coords="883,352,895,357,882,386,853,398" />
-        <area class="area" id="seaChina" alt="" data-toggle="popover" title="SEA China" href="#" shape="poly" coords="696,380,700,397,731,414,752,449,756,482,783,514,810,518,832,492,844,476,826,422,828,402,855,386,844,373,855,358,864,340,853,336,783,362,798,358,821,347,759,360,738,358,719,363" />
-        <area class="area" id="australia" alt="" data-toggle="popover" title="Australia" href="#" shape="poly" coords="817,603,824,597,834,599,842,592,855,590,867,601,899,633,920,582,884,525,859,528,842,535,803,560,809,598" />
-        <area class="area" id="uk" alt="" data-toggle="popover" title="UK" href="#" shape="poly" coords="472,329,486,320,469,290,461,295" />
-        <area class="area" id="iranIraq" alt="" data-toggle="popover" title="Iraq Iran" href="#" shape="poly" coords="590,394,606,407,615,409,621,405,638,419,657,422,659,414,655,408,654,397,655,386,644,378,620,381,617,374,607,372" />
-        <area class="area" id="nafrica" alt="" data-toggle="popover" title="North Africa" href="#" shape="poly" coords="517,512,529,512,533,519,543,515,546,527,568,518,593,515,627,461,605,464,577,415,579,401,550,399,542,394,537,402,512,395,507,381,485,383,474,389,464,387,454,400,432,430,430,450,457,481" />
-        <area class="area" id="sarabia" alt="" data-toggle="popover" title="Saudi Arabia" href="#" shape="poly" coords="606,458,629,453,653,433,641,421,632,425,617,410,592,399,580,405" />
-        <area class="area" id="scan" alt="" data-toggle="popover" title="Scandinavia" href="#" shape="poly" coords="522,302,598,234,561,202,524,219,490,272" />
-        <area class="area" id="nzealand" alt="" data-toggle="popover" title="New Zealand" href="#" shape="poly" coords="946,613,975,600,987,621,966,643,962,646,957,643" />
-    </map>
+<div class="container" align="center">
+    <img class="img-responsive" src="images/worldmap.png" alt="" usemap="#Map"/>
+</div>
+<map name="Map" id="Map">
+    <area class="area" id="ca" alt="" data-toggle="popover" title="Canada" href="#" shape="poly" coords="129,334,212,335,230,339,242,346,245,364,285,344,327,344,320,318,296,281,304,236,183,106,37,199,7,221,3,245,6,279,13,308" />
+    <area class="area" id="usa" alt="" data-toggle="popover" title="USA" href="#" shape="poly" coords="149,396,166,401,179,399,186,408,192,406,199,416,205,419,206,412,216,407,241,403,252,420,312,346,286,346,208,337,128,336,126,370" />
+    <area class="area" id="ncone1" alt="" data-toggle="popover" title="Northern Cone" href="#" shape="poly" coords="250,472,207,448,185,439,171,429,156,414,150,400,166,404,179,401,205,421,233,433" />
+<!--    <area class="area" id="ncone2" alt="" data-toggle="popover" title="Northern Cone" href="#" shape="poly" coords="277,458,291,467,269,464,263,471,252,492,249,508,267,533,285,536" />-->
+    <area class="area" id="scone" alt="" data-toggle="popover" title="Southern Cone" href="#" shape="poly" coords="267,536,281,548,273,611,266,653,271,672,283,688,293,684,292,651,361,563,383,518,336,487,308,467,279,470" />
+    <area class="area" id="ceurope" alt="" data-toggle="popover" title="Central Europe" href="#" shape="poly" coords="520,310,524,326,535,333,546,334,562,350,570,345,579,352,588,343,596,356,618,365,614,354,626,344,631,351,626,355,632,364,642,365,640,351,648,350,658,358,667,357,671,367,682,361,709,362,709,354,716,351,716,341,723,342,730,334,749,327,758,331,759,325,763,321,771,323,774,328,781,329,790,332,800,334,807,329,813,330,817,333,824,322,824,317,835,315,845,330,855,339,864,337,860,350,855,358,860,360,881,336,887,318,866,310,886,287,901,285,907,281,913,287,921,286,919,281,928,269,935,270,936,276,943,272,947,265,948,274,928,294,926,301,928,323,945,299,940,291,950,280,956,281,960,276,964,279,985,265,990,266,988,257,985,253,990,253,995,247,1003,247,1013,254,1022,243,1013,237,981,212,946,215,936,214,936,207,928,203,907,197,892,188,847,198,834,178,796,178,788,179,807,159,796,144,776,134,682,186" />
+    <area class="area" id="germany" alt="" data-toggle="popover" title="Germany" href="#" shape="poly" coords="523,326,516,331,517,339,508,342,501,335,498,327,501,318,506,312,512,313,518,312,522,319" />
+    <area class="area" id="switzerland" alt="" data-toggle="popover" title="Switzerland" href="#" shape="poly" coords="503,340,512,344,504,347" />
+    <area class="area" id="austria" alt="" data-toggle="popover" title="Austria" href="#" shape="poly" coords="520,348,527,345,526,351" />
+    <area class="area" id="netherlands" alt="" data-toggle="popover" title="Netherlands" href="#" shape="poly" coords="489,323,498,326,502,313" />
+    <area class="area" id="france" alt="" data-toggle="popover" title="France" href="#" shape="poly" coords="469,337,477,347,476,357,488,360,493,351,501,341,499,333,489,327,478,333,483,330" />
+    <area class="area" id="italy" alt="" data-toggle="popover" title="Italy" href="#" shape="poly" coords="516,378,522,382,530,375,533,370,520,361,517,350,501,351" />
+    <area class="area" id="spain" alt="" data-toggle="popover" title="Spain" href="#" shape="poly" coords="452,375,463,384,473,381,481,374,487,362,476,357,465,358,456,358" />
+    <area class="area" id="turkey" alt="" data-toggle="popover" title="Turkey" href="#" shape="poly" coords="585,382,596,382,607,381,606,372,603,365,591,368,581,365,574,366,566,368,557,367,557,375,562,381,574,385" />
+<!--    <area class="area" id="iberiaTurkey" alt="" data-toggle="popover" title="Iberia and Turkey" href="#" shape="poly" coords="576,385,579,381,585,383,607,381,607,372,620,374,622,366,599,362,578,364,566,368,559,363,564,350,536,335,520,348,546,382" />-->
+    <area class="area" id="india" alt="" data-toggle="popover" title="India" href="#" shape="poly" coords="702,472,708,467,708,451,734,433,732,419,696,397,689,410,680,413,682,424,678,427" />
+    <area class="area" id="nafrica" alt="" data-toggle="popover" title="North Africa" href="#" shape="poly" coords="517,512,529,512,533,519,543,515,546,527,568,518,593,515,627,461,605,464,577,415,579,401,550,399,542,394,537,402,512,395,507,381,485,383,474,389,464,387,454,400,432,430,430,450,457,481" />
+    <area class="area" id="australia" alt="" data-toggle="popover" title="Australia" href="#" shape="poly" coords="817,603,824,597,834,599,842,592,855,590,867,601,899,633,920,582,884,525,859,528,842,535,803,560,809,598" />
+    <area class="area" id="nzealand" alt="" data-toggle="popover" title="New Zealand" href="#" shape="poly" coords="946,613,975,600,987,621,966,643,962,646,957,643" />
+    <area class="area" id="seaChina" alt="" data-toggle="popover" title="SEA China" href="#" shape="poly" coords="696,380,700,397,731,414,752,449,756,482,783,514,810,518,832,492,844,476,826,422,828,402,855,386,844,373,855,358,864,340,853,336,783,362,798,358,821,347,759,360,738,358,719,363" />
+    <area class="area" id="singapore" alt="" data-toggle="popover" title="Singapore" href="#" shape="poly" coords="777,494,780,488,771,489" />
+    <area class="area" id="japan" alt="" data-toggle="popover" title="Japan" href="#" shape="poly" coords="883,352,895,357,882,386,853,398" />
+    <area class="area" id="safrica" alt="" data-toggle="popover" title="South Africa" href="#" shape="poly" coords="536,599,562,599,561,592,569,584,575,574,583,566,580,554,575,546,568,539,548,526,514,531,512,548" />
+    <area class="area" id="uk" alt="" data-toggle="popover" title="UK" href="#" shape="poly" coords="472,329,486,320,469,290,461,295" />
+    <!--    <area class="area" id="exSNeurope" alt="" data-toggle="popover" title="Ex Springer European Territories" href="#" shape="poly" coords="476,356,488,363,498,357,527,345,534,334,524,326,521,312,506,306,469,335" />-->
+    <area class="area" id="iberia" alt="" data-toggle="popover" title="Iberia" href="#" shape="poly" coords="465,386,477,381,488,365,476,358,456,355,455,374,458,382" />
+    <area class="area" id="iranIraq" alt="" data-toggle="popover" title="Iraq Iran" href="#" shape="poly" coords="590,394,606,407,615,409,621,405,638,419,657,422,659,414,655,408,654,397,655,386,644,378,620,381,617,374,607,372" />
+    <area class="area" id="sarabia" alt="" data-toggle="popover" title="Saudi Arabia" href="#" shape="poly" coords="606,458,629,453,653,433,641,421,632,425,617,410,592,399,580,405" />
+    <area class="area" id="scan" alt="" data-toggle="popover" title="Scandinavia" href="#" shape="poly" coords="522,302,598,234,561,202,524,219,490,272" />
+</map>
 
 <!-- The modal_canada -->
-<div id="canada" class="modal">
+<div id="canada" name="canada" class="modal">
     <!-- modal_canada content -->
     <div class="modal-content">
-        <span class="close">&times;</span>
-        <h4>Canada</h4><hr>
-        <h5>Group Compliance</h5>
-        <hr>
-        <div class="container-fluid">
-           <div class="row"></div>
-        </div>
+        <span class="close" style="margin-bottom: 5px">&times;</span>
+        <h2>Canada</h2>
+        <hr class="new5">
+        <h5>GRC Network Committees and Contacts</h5>
+        <hr class="purple">
     </div>
 </div>
 
-<div id="usam" class="modal">
+<div id="usam" name="usa" class="modal">
     <div class="modal-content">
         <span class="close">&times;</span>
-        <h4>USA</h4><hr>
+        <h2>USA</h2><hr class="new5">
+        <h5>GRC Network Committees and Contacts</h5>
+        <hr class="purple">
+    </div>
+</div>
+
+<div id="nconem1" name="mexico-colombia-peru" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Northern Cone</h2><hr class="new5">
+        <h5>GRC Network Committees and Contacts</h5>
+        <hr class="purple">
+    </div>
+</div>
+
+<!--<div id="nconem2" class="modal">-->
+<!--    <div class="modal-content">-->
+<!--        <span class="close">&times;</span>-->
+<!--        <h2>Northern Cone</h2><hr>-->
+<!--        <h5>GRC Network Committees and Contacts</h5>-->
+<!--        <hr>-->
+<!--    </div>-->
+<!--</div>-->
+
+<div id="sconem" name="brazil-argentina" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Southern Cone</h2><hr class="new5">
+        <h5>GRC Network Committees and Contacts</h5>
+        <hr class="purple">
+    </div>
+</div>
+
+<div id="ceuropem" name="cee" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Central Europe</h2><hr class="new5">
+        <h5>GRC Network Committees and Contacts</h5>
+        <hr class="purple">
+    </div>
+</div>
+
+<div id="germanym" name="germany" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Germany</h2><hr class="new5">
+        <h5>GRC Network Committees and Contacts</h5>
+        <hr class="purple">
+    </div>
+</div>
+
+<div id="switzerlandm" name="switzerland" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Switzerland</h2><hr class="new5">
+        <h5>GRC Network Committees and Contacts</h5>
+        <hr class="purple">
+    </div>
+</div>
+
+<div id="austriam" name="austria" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Austria</h2><hr class="new5">
+        <h5>GRC Network Committees and Contacts</h5>
+        <hr class="purple">
+    </div>
+</div>
+
+<div id="netherlandsm" name="netherlands" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Netherlands</h2><hr class="new5">
+        <h5>GRC Network Committees and Contacts</h5>
+        <hr class="purple">
+    </div>
+</div>
+
+<div id="francem" name="france" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>France</h2><hr class="new5">
+        <h5>GRC Network Committees and Contacts</h5>
+        <hr class="purple">
+    </div>
+</div>
+
+<div id="italym" name="italy" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Italy</h2><hr class="new5">
+        <h5>GRC Network Committees and Contacts</h5>
+        <hr class="purple">
+    </div>
+</div>
+
+<div id="spainm" name="spain" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Spain</h2><hr class="new5">
+        <h5>GRC Network Committees and Contacts</h5>
+        <hr class="purple">
+    </div>
+</div>
+
+<div id="turkeym" name="turkey" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Turkey</h2><hr class="new5">
+        <h5>GRC Network Committees and Contacts</h5>
+        <hr class="purple">
+    </div>
+</div>
+
+<div id="indiam" name="india" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>India</h2><hr class="new5">
         <h5>GRC Network Committee</h5>
-        <hr>
-        <div class="container-fluid">
-            <div class="row"></div>
-        </div>
+        <hr class="purple">
     </div>
 </div>
 
-<div id="nconem1" class="modal">
+<div id="nafricam" name="northafricaandmiddleeast" class="modal">
     <div class="modal-content">
         <span class="close">&times;</span>
-        <h4>Northern Cone</h4><hr>
-        <h5>Regional Compliance Officer</h5>
-        <hr>
-        <div class="container-fluid">
-            <div class="row"></div>
-        </div>
+        <h2>Northern Africa</h2><hr class="new5">
+        <h5>GRC Network Committees and Contacts</h5>
+        <hr class="purple">
     </div>
 </div>
 
-<div id="nconem2" class="modal">
+<div id="australiam" name="australiaandnewzealand" class="modal">
     <div class="modal-content">
         <span class="close">&times;</span>
-        <h4>Northern Cone</h4><hr>
-        <h5>Regional Compliance Officer</h5>
-        <hr>
-        <div class="container-fluid">
-            <div class="row"></div>
-        </div>
+        <h2>Australia and New Zealand</h2><hr class="new5">
+        <h5>GRC Network Committees and Contacts</h5>
+        <hr class="purple">
     </div>
 </div>
 
-<div id="sconem" class="modal">
+<div id="nzealandm" name="australiaandnewzealand" class="modal">
     <div class="modal-content">
         <span class="close">&times;</span>
-        <h4>Southern Cone</h4><hr>
-        <h5>Regional Compliance Officer</h5>
-        <hr>
-        <div class="container-fluid">
-            <div class="row"></div>
-        </div>
+        <h2>Australia and New Zealand</h2><hr class="new5">
+        <h5>GRC Network Committees and Contacts</h5>
+        <hr class="purple">
     </div>
 </div>
 
-<div id="ceuropem" class="modal">
+<div id="seaChinam" name="seasiaandchina" class="modal">
     <div class="modal-content">
         <span class="close">&times;</span>
-        <h4>Central Europe</h4><hr>
-        <h5>Regional Compliance Officer</h5>
-        <hr>
-        <div class="container-fluid">
-            <div class="row"></div>
-        </div>
-    </div>
-</div>
-
-<div id="safricam" class="modal">
-    <div class="modal-content">
-        <span class="close">&times;</span>
-        <h4>South Africa</h4><hr>
-        <h5>Regional Compliance Officer</h5>
-        <hr>
-        <div class="container-fluid">
-            <div class="row"></div>
-        </div>
-    </div>
-</div>
-
-<div id="iberiaTurkeym" class="modal">
-    <div class="modal-content">
-        <span class="close">&times;</span>
-        <h4>Iberia and Turkey</h4><hr>
-        <h5>Regional Compliance Officer</h5>
-        <hr>
-        <div class="container-fluid">
-            <div class="row"></div>
-        </div>
-    </div>
-</div>
-
-<div id="indiam" class="modal">
-    <div class="modal-content">
-        <span class="close">&times;</span>
-        <h4>India</h4><hr>
+        <h2>SEA China</h2><hr class="new5">
         <h5>GRC Network Committee</h5>
-        <hr>
-        <div class="container-fluid">
-            <div class="row"></div>
-        </div>
+        <hr class="purple">
     </div>
 </div>
 
-<div id="exSNeuropem" class="modal">
+<div id="singaporem" name="singapore" class="modal">
     <div class="modal-content">
         <span class="close">&times;</span>
-        <h4>Springer European Territories </h4><hr>
-        <h5>Regional Compliance Officer</h5>
-        <hr>
-        <div class="container-fluid">
-            <div class="row"></div>
-        </div>
+        <h2>Singapore</h2><hr class="new5">
+        <h5>GRC Network Committees and Contacts</h5>
+        <hr class="purple">
     </div>
 </div>
+
+<div id="japanm" name="japan" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Japan</h2><hr class="new5">
+        <h5>GRC Network Committee</h5>
+        <hr class="purple">
+    </div>
+</div>
+
+<div id="safricam" name="southafrica" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Southern Africa</h2><hr class="new5">
+        <h5>GRC Network Committees and Contacts</h5>
+        <hr class="purple">
+    </div>
+</div>
+
+<div id="ukm" name="uk" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>United Kingdom</h2><hr class="new5">
+        <h5>GRC Network Committees and Contacts</h5>
+        <hr class="purple">
+    </div>
+</div>
+
+<!--<div id="iberiaTurkeym" class="modal">-->
+<!--    <div class="modal-content">-->
+<!--        <span class="close">&times;</span>-->
+<!--        <h2>Iberia and Turkey</h2><hr>-->
+<!--        <h5>GRC Network Committees and Contacts</h5>-->
+<!--        <hr>-->
+<!--        <div class="container-fluid">-->
+<!--            <div class="row"></div>-->
+<!--            <a href="#" class="loadMore">Load More</a>-->
+<!--            <a href="#" class="loadLess">Load Less</a>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+
+<!--<div id="exSNeuropem" class="modal">-->
+<!--    <div class="modal-content">-->
+<!--        <span class="close">&times;</span>-->
+<!--        <h2>Springer European Territories </h2><hr>-->
+<!--        <h5>GRC Network Committees and Contacts</h5>-->
+<!--        <hr>-->
+<!--        <div class="container-fluid">-->
+<!--            <div class="row"></div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
 
 <div id="iberiam" class="modal">
     <div class="modal-content">
         <span class="close">&times;</span>
-        <h4>Iberia</h4><hr>
+        <h2>Iberia</h2><hr class="new5">
         <h5>GRC Network Committee</h5>
-        <hr>
-        <div class="container-fluid">
-            <div class="row"></div>
-        </div>
-    </div>
-</div>
-
-<div id="japanm" class="modal">
-    <div class="modal-content">
-        <span class="close">&times;</span>
-        <h4>Japan</h4><hr>
-        <h5>GRC Network Committee</h5>
-        <hr>
-        <div class="container-fluid">
-            <div class="row"></div>
-        </div>
-    </div>
-</div>
-
-<div id="seaChinam" class="modal">
-    <div class="modal-content">
-        <span class="close">&times;</span>
-        <h4>SEA China</h4><hr>
-        <h5>GRC Network Committee</h5>
-        <hr>
-        <div class="container-fluid">
-            <div class="row"></div>
-        </div>
-    </div>
-</div>
-
-<div id="australiam" class="modal">
-    <div class="modal-content">
-        <span class="close">&times;</span>
-        <h4>Australia</h4><hr>
-        <h5>Group Compliance</h5>
-        <hr>
-        <div class="container-fluid">
-            <div class="row"></div>
-        </div>
-    </div>
-</div>
-
-<div id="ukm" class="modal">
-    <div class="modal-content">
-        <span class="close">&times;</span>
-        <h4>United Kingdom</h4><hr>
-        <h5>Group Compliance</h5>
-        <hr>
-        <div class="container-fluid">
-            <div class="row"></div>
-        </div>
+        <hr class="purple">
     </div>
 </div>
 
 <div id="iranIraqm" class="modal">
     <div class="modal-content">
         <span class="close">&times;</span>
-        <h4>Iran and Iraq</h4><hr>
-        <h5>Group Compliance</h5>
-        <hr>
-        <div class="container-fluid">
-            <div class="row"></div>
-        </div>
-    </div>
-</div>
-
-<div id="nafricam" class="modal">
-    <div class="modal-content">
-        <span class="close">&times;</span>
-        <h4>Northern Africa</h4><hr>
-        <h5>Group Compliance</h5>
-        <hr>
-        <div class="container-fluid">
-            <div class="row"></div>
-        </div>
+        <h2>Iran and Iraq</h2><hr class="new5">
+        <h5>GRC Network Committees and Contacts</h5>
+        <hr class="purple">
     </div>
 </div>
 
 <div id="sarabiam" class="modal">
     <div class="modal-content">
         <span class="close">&times;</span>
-        <h4>Saudi Arabia</h4><hr>
-        <h5>Group Compliance</h5>
-        <hr>
-        <div class="container-fluid">
-                <div class="row"></div>
-        </div>
+        <h2>Saudi Arabia</h2><hr class="new5">
+        <h5>GRC Network Committees and Contacts</h5>
+        <hr class="purple">
     </div>
 </div>
 
 <div id="scanm" class="modal">
     <div class="modal-content">
         <span class="close">&times;</span>
-        <h4>Scandinavia</h4><hr>
-        <h5>Group Compliance</h5>
-        <hr>
-        <div class="container-fluid">
-                <div class="row"></div>
-        </div>
-    </div>
-</div>
-
-<div id="nzealandm" class="modal">
-    <div class="modal-content">
-        <span class="close">&times;</span>
-        <h4>New Zealand</h4><hr>
-        <h5>Group Compliance</h5>
-        <hr>
-        <div class="container-fluid">
-                <div class="row"></div>
-        </div>
+        <h2>Scandinavia</h2><hr class="new5">
+        <h5>GRC Network Committees and Contacts</h5>
+        <hr class="purple">
     </div>
 </div>
 
 <div id="panel" class="container">
     <div class="panel-group">
         <div class="panel panel-info">
-        <div class="panel-heading"></div>
-        <div class="panel-body">Click region for contact information</div>
+            <div class="panel-heading"></div>
+            <div class="panel-body">Click region for contact information</div>
         </div>
     </div>
 </div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="javascripts/imageMapResizer.min.js"></script>
 <script src="javascripts/ihmap.js"></script>
 <script>
-  $( window ).resize(function() {
-    $('map').imageMapResize();
-    app.resize();
-  });
+    $( window ).resize(function() {
+        $('map').imageMapResize();
+        app.resize();
+    });
 </script>
 <!-- NOTE: main.js SHOULD RUN LAST -->
 <script type="text/javascript" charset="utf-8" src="javascripts/main.js"></script>

@@ -47,4 +47,5 @@ img{
       list-style-position: inside;
       list-style-type: square;   
   }
-  
+#myList li{ display:none;
+}
